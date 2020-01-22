@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="descripiton" content="Naturalne sesje zdjęciowe bez pozowania. Fotografia rodzinna, partnerska, portretowa.">
+  <meta name="author" content="Jacek Jarczok www.k-son.eu">
+
+  <!-- favicons -->
+
+  <title>Spacer po zdjęcia</title>
+
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="owl-carousel">
+      <div class="header__img header__img--1"></div>
+      <div class="header__img header__img--2"></div>
+      <div class="header__img header__img--3"></div>
+      <div class="header__img header__img--4"></div>
+      <div class="header__img header__img--5"></div>
+    </div>
+  </header>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script>
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      slideSpeed : 1000,
+      paginationSpeed : 1000,
+      items : 1, 
+      itemsDesktop : false,
+      itemsDesktopSmall : false,
+      itemsTablet: false,
+      itemsMobile : false,
+      loop: true,
+      nav: true,
+      dots: true,
+      dotsEach: true,
+      //autoHeight : true
+    });
+  });
+  </script>
+</body>
+
+</html>

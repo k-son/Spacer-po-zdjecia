@@ -1,0 +1,52 @@
+.owl-carousel {
+  position: relative;
+}
+
+.owl-prev span,
+.owl-next span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 8rem;
+  color: #fff;
+  //text-shadow: 2px 0 0 #fff, 0 2px 0 #fff, -2px 0 0 #fff, 0 -2px 0 #fff;
+}
+
+.owl-prev span {
+  left: 2rem;
+}
+
+.owl-next span {
+  right: 2rem;
+}
+
+.owl-dots {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  z-index: 9;
+}
+
+.owl-dot span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 5px;
+
+ &:hover,
+ &:active {
+
+ }
+}
+
+.owl-dot.active span {
+  width: 13px;
+  height: 13px;
+}

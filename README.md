@@ -1,8 +1,5 @@
-# gulp-setup
-my basic setup for web development
+# Spacer po zdjęcia
 
+Website showcasing my portrait photography.
 
-Copy files and subfolders (not an entire gulp setup folder). Then you can create a new git repo.
-Copy .gitignore.
-
-Run gulp watch.
+In development.

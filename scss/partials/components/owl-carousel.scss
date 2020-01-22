@@ -7,29 +7,30 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 8rem;
+  font-size: 10rem;
   color: #fff;
   //text-shadow: 2px 0 0 #fff, 0 2px 0 #fff, -2px 0 0 #fff, 0 -2px 0 #fff;
 }
 
 .owl-prev span {
-  left: 2rem;
+  left: 2.4rem;
 }
 
 .owl-next span {
-  right: 2rem;
+  right: 2.4rem;
 }
 
 .owl-dots {
   width: 100%;
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px 0;
   z-index: 9;
+  opacity: .8;
 }
 
 .owl-dot span {
@@ -38,7 +39,7 @@
   height: 10px;
   border-radius: 50%;
   background-color: #fff;
-  margin-right: 5px;
+  margin-right: 8px;
 
  &:hover,
  &:active {
